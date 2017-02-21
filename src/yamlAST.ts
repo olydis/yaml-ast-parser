@@ -2,7 +2,7 @@
 /**
  * Created by kor on 06/05/15.
  */
-import YAMLException       = require('./exception');
+import { YAMLException } from './exception';
 export enum Kind{
     SCALAR,
     MAPPING,

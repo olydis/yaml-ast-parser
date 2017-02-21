@@ -1,7 +1,7 @@
 
 import Mark=require("./mark")
-'use strict';
-class YAMLException {
+
+export class YAMLException {
 
   message:string
   reason:string
@@ -28,4 +28,3 @@ class YAMLException {
 
   }
 }
-export=YAMLException

@@ -4,7 +4,7 @@ import ast=require("./yamlAST")
 /*eslint-disable max-len,no-use-before-define*/
 
 import common              = require('./common');
-import YAMLException       = require('./exception');
+import { YAMLException } from "./exception";
 import Mark                = require('./mark');
 import DEFAULT_SAFE_SCHEMA = require('./schema/default_safe');
 import DEFAULT_FULL_SCHEMA = require('./schema/default_full');

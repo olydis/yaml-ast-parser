@@ -5,7 +5,7 @@
 /*eslint-disable max-len*/
 
 import common        = require('./common');
-import YAMLException = require('./exception');
+import { YAMLException } from './exception';
 import Type          = require('./type');
 
 
