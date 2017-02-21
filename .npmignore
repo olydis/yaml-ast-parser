@@ -1,7 +1,13 @@
 /node_modules
 
-/src/**/*.js
-/src/**/*.js.map
-/src/**/*.d.ts
+/src/**
+*.map
+.vscode/**
+.travis.yml
+.npmignore
+tsconfig.json
+typings.json
+workspace.json
+*.tgz
 
 *.iml
